@@ -69,6 +69,9 @@ html, body {
 	color: var(--white);
 	font-size: 28px;
 }
+.cover a {
+	color: var(--white);
+}
 .ripple {
 	background-color: var(--white);
 	position: fixed;
