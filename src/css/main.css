@@ -72,6 +72,35 @@ html, body {
 .cover a {
 	color: var(--white);
 }
+.cover input,
+.cover select {	
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: none;
+	border-radius: 0;
+	color: var(--primary-dark-blue);
+	font-family: 'Hussar Bold', 'Arial', sans-serif;
+	padding: 12px 12px 9px 14px;
+}
+.cover input:focus,
+.cover select:focus {
+	box-shadow: 2px 2px var(--primary-dark-blue);
+	outline:  none;
+}
+.cover input[type="submit"] {
+	background-color: var(--secondary-blue);
+	color: var(--white);
+	cursor: pointer;
+	letter-spacing: 2px;
+	margin: 0 5px;
+	padding: 12px 12px 9px 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.cover input[type="submit"]:hover {
+	box-shadow: 2px 2px var(--primary-dark-blue);
+}
 .ripple {
 	background-color: var(--white);
 	position: fixed;
@@ -88,9 +117,9 @@ html, body {
 @media (max-height: 700px) {
 	.cover > div {
 		left: unset;
-	position: relative;
-	top: unset;
-	transform: unset;
-	-webkit-transform: unset;
+		position: relative;
+		top: unset;
+		transform: unset;
+		-webkit-transform: unset;
 	}
 }
