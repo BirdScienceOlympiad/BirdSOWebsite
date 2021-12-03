@@ -29,7 +29,7 @@ $(function() {
 			roles_count++;
 		}
 		if (roles_count > 1) {
-			buttons = buttons.replace(' selected"', '"');
+			buttons = buttons.replace(' selected', '');
 			buttons = '<a class="button all selected">All</a>' + buttons;
 		}
 		buttons = '<span class="buttons left">' + buttons;
