@@ -11,7 +11,7 @@ $(function() {
 		var roles_count = 0;
 
 		// display buttons for filtering by roles specified
-		var buttons = '<span class="buttons left">';
+		var buttons = '';
 		if (roles.includes('director') || roles.length == 0) {
 			buttons += '<a class="button tournament-director selected">Directors</a>';
 			roles_count++;
@@ -32,6 +32,7 @@ $(function() {
 			buttons = buttons.replace(' selected"', '"');
 			buttons = '<a class="button all selected">All</a>' + buttons;
 		}
+		buttons = '<span class="buttons left">' + buttons;
 		buttons += '</span>';
 		profiles[a].innerHTML += buttons;
 
