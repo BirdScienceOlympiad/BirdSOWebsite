@@ -50,7 +50,7 @@ $(function() {
 
 					// if image is blank set a stock photo
 					if (person['image'] == '') {
-						person['image'] = '/birdso/src/img/profile.svg';
+						person['image'] = '/src/img/profile.svg';
 					}
 
 					profile = '<div class="photo" style="background-image: url(\'' + person['image'] + '\');"></div><div class="title">';
