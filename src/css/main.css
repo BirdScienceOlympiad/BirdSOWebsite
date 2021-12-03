@@ -518,7 +518,7 @@ select {
 }
 input:focus,
 select:focus {
-	box-shadow: 2px 2px var(--primary-dark-blue);
+	box-shadow: 3px 3px var(--primary-dark-blue);
 	outline: none;
 }
 input[type="submit"] {
