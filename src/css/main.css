@@ -453,10 +453,10 @@ button:hover,
 button:focus {
 	box-shadow: 3px 3px var(--primary-dark-blue);
 }
-.buttons a:first-child {
+.buttons:not(.center) a:first-child {
 	margin-left: 0;
 }
-.buttons a:last-child {
+.buttons:not(.center) a:last-child {
 	margin-right: 0;
 }
 .buttons a.disabled,
@@ -495,18 +495,18 @@ a.button.yellow:focus,
 button.yellow:focus {
 	box-shadow: 3px 3px #b09600;
 }
-.buttons a.dark,
-a.button.dark,
-button.dark {
+.buttons a.navy,
+a.button.navy,
+button.navy {
 	background-color: var(--primary-dark-blue);
 	color:  var(--white);
 }
-.buttons a.dark:hover,
-a.button.dark:hover,
-button.dark:hover,
-.buttons a.dark:focus,
-a.button.dark:focus,
-button.dark:focus {
+.buttons a.navy:hover,
+a.button.navy:hover,
+button.navy:hover,
+.buttons a.navy:focus,
+a.button.navy:focus,
+button.navy:focus {
 	box-shadow: 3px 3px var(--secondary-dark-blue);
 }
 .buttons.small a {
