@@ -911,7 +911,7 @@ input[type="submit"]:hover {
 	}
 	.profiles .title,
 	.profiles .info {
-		background-color: transparent;
+		background-color: transparent !important;
 		padding-left: 0;
 		right: 0;
 	}
