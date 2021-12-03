@@ -29,7 +29,7 @@ $(function() {
 			roles_count++;
 		}
 		if (roles_count > 1) {
-			buttons += '<a class="button all">All</a>';
+			buttons = '<a class="button all">All</a>' + buttons;
 		}
 		buttons += '</span>';
 		profiles[a].innerHTML += buttons;
