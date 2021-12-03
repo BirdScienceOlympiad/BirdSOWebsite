@@ -3,27 +3,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @font-face {
 	font-family: 'Hussar Bold';
-	src: url(/birdso/src/fonts/hussar-bold.otf);
+	src: url(/src/fonts/hussar-bold.otf);
 	font-weight: 400;
 }
 @font-face {
 	font-family: 'League Spartan';
-	src: url(/birdso/src/fonts/league-spartan-semibold.otf);
+	src: url(/src/fonts/league-spartan-semibold.otf);
 	font-weight: 600;
 }
 @font-face {
 	font-family: 'League Spartan';
-	src: url(/birdso/src/fonts/league-spartan-medium.otf);
+	src: url(/src/fonts/league-spartan-medium.otf);
 	font-weight: 500;
 }
 @font-face {
 	font-family: 'League Spartan';
-	src: url(/birdso/src/fonts/league-spartan-regular.otf);
+	src: url(/src/fonts/league-spartan-regular.otf);
 	font-weight: 400;
 }
 @font-face {
 	font-family: 'League Spartan';
-	src: url(/birdso/src/fonts/league-spartan-light.otf);
+	src: url(/src/fonts/league-spartan-light.otf);
 	font-weight: 300;
 }
 
@@ -198,7 +198,7 @@ div#wrap {
 	padding-bottom: 145px;
 }
 .header {
-	background-image: url('/birdso/src/img/background.svg');
+	background-image: url('/src/img/background.svg');
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
