@@ -915,6 +915,10 @@ input[type="submit"]:hover {
 		padding-left: 0;
 		right: 0;
 	}
+	.profiles .active .title h3,
+	.profiles .active .title h4 {
+		color: var(--black);
+	}
 	.profiles .info {
 		display: block;
 	}
