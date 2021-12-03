@@ -13,23 +13,24 @@ $(function() {
 		// display buttons for filtering by roles specified
 		var buttons = '<span class="buttons left">';
 		if (roles.includes('director') || roles.length == 0) {
-			buttons += '<a class="button tournament-director">Directors</a>';
+			buttons += '<a class="button tournament-director selected">Directors</a>';
 			roles_count++;
 		}
 		if (roles.includes('board') || roles.length == 0) {
-			buttons += '<a class="button board">Board</a>';
+			buttons += '<a class="button board selected">Board</a>';
 			roles_count++;
 		}
 		if (roles.includes('supervisor') || roles.length == 0) {
-			buttons += '<a class="button event-supervisor">Event Supervisors</a>';
+			buttons += '<a class="button event-supervisor selected">Event Supervisors</a>';
 			roles_count++;
 		}
 		if (roles.includes('volunteer') || roles.length == 0) {
-			buttons += '<a class="button volunteer-grader">Volunteer Graders</a>';
+			buttons += '<a class="button volunteer-grader selected">Volunteer Graders</a>';
 			roles_count++;
 		}
 		if (roles_count > 1) {
-			buttons = '<a class="button all">All</a>' + buttons;
+			buttons = buttons.replace(' selected"', '"');
+			buttons = '<a class="button all selected">All</a>' + buttons;
 		}
 		buttons += '</span>';
 		profiles[a].innerHTML += buttons;
