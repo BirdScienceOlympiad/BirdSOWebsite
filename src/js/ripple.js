@@ -7,8 +7,8 @@ function applyCursorRippleEffect(e) {
 	document.body.appendChild(ripple);
 
 	var diameter = Math.random() * 15 + 10;
-	ripple.style.left = `${e.clientX}px`;
-	ripple.style.top = `${e.clientY}px`; 
+	ripple.style.left = `${e.clientX - 10}px`;
+	ripple.style.top = `${e.clientY - 10}px`; 
 	ripple.style.height = `${diameter}px`; 
 	ripple.style.width = `${diameter}px`; 
 
