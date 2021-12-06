@@ -675,7 +675,6 @@ input[type="submit"]:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 225px;
-	margin: -10px;
 	margin-bottom: 0;
 }
 .profiles .title {
@@ -871,6 +870,18 @@ input[type="submit"]:hover {
 	.container {
 		padding-right: 15px;
 		padding-left: 15px;
+	}
+	.tiles > .one-half,
+	.tiles > .one-third,
+	.tiles > .two-third,
+	.tiles > .one-fourth,
+	.tiles > .three-fourth,
+	.panel > .one-half,
+	.panel > .one-third,
+	.panel > .two-third,
+	.panel > .one-fourth,
+	.panel > .three-fourth {
+		width: calc(100% - 20px);
 	}
 	a[href]:after {
 		content: ' (' attr(href) ')';

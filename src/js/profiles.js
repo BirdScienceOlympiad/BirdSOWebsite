@@ -53,7 +53,7 @@ $(function() {
 						person['image'] = '/src/img/profile.svg';
 					}
 
-					profile = '<div class="photo" style="background-image: url(\'' + person['image'] + '\');"></div><div class="title">';
+					profile = '<div class="photo" style="background-image: url(' + person['image'] + ');"></div><div class="title">';
 					profile += '<h3>' + person['first name'] + ' ' + person['last name'] + '</h3>';
 
 					// specify classes to add to person's profile by looping through their roles
