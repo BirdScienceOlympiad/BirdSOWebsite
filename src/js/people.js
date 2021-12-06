@@ -956,7 +956,7 @@ var json = [
 				"last name": "Mansfield",
 				"image": "/src/photos/2022/LucasMansfield.jpg",
 				"role": [{ "title": "Event Supervisor", "event": "Ornithology", "division": "C" }],
-				"biography": "I've participated in Science Olympiad throughout middle and high school for Camas High School, and placed third in Orni at Nationals 2021.",
+				"biography": "Hi! My name is Lucas Mansfield, and I’m a current Freshman at the University of Washington. I competed in Science Olympiad for 7 years, mostly focusing on Bio and Earth Science events, my favorite being Ornithology. Nowadays I like to birdwatch around the Pacific Northwest and take bird photography. If you wanna talk or see some of my photos, you can add my discord AvianTrumpet#3434.",
 				"fact": "I'iwi"
 			},
 			{
