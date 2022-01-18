@@ -387,11 +387,18 @@ div#wrap {
 	text-align: right;
 	padding-top: 10px;
 }
+.footer .icons a {
+	border-color: transparent;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0 5px;
+}
+.footer .icons a:focus {
+	border-bottom-color: var(--white);
+	text-decoration: none;
+}
 .footer .icons img {
 	height: 30px;
-}
-.footer .icons a {
-	margin: 0 5px;
 }
 .footer .icons .text {
 	font-family: 'Lato', 'Arial', sans-serif;
@@ -569,6 +576,7 @@ input[type="submit"]:hover {
 	border-bottom-width: 0.5px;
 	color: var(--white);
 	cursor: pointer;
+	display: inline-block;
 	font-weight: normal;
 	padding: 15px 50px 15px 20px;
 	transition: background-color 0.5s;
@@ -587,12 +595,14 @@ input[type="submit"]:hover {
 	text-shadow: 0 0 0 var(--primary-yellow);
 }
 .accordion > h3:hover,
+.accordion > h3:focus,
 .accordion > h3.active {
 	background-color: var(--primary-dark-blue);
 }
 .accordion > h3.active + div {
 	padding-top: 5px;
 	padding-bottom: 10px;
+	visibility: visible;
 }
 .accordion > div {
 	margin: 0;
@@ -600,6 +610,7 @@ input[type="submit"]:hover {
 	overflow: hidden;
 	padding: 0 20px;
 	transition: max-height 0.2s ease-out;
+	visibility: hidden;
 }
 
 /*** COUNTDOWN ***/
