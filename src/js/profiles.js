@@ -2,6 +2,9 @@ $(function() {
 	// loop through all elements with class "profiles"
 	var profiles = document.getElementsByClassName('profiles');
 	for (var a = 0; a < profiles.length; a++) {
+		profiles[a].innerHTML = '<h4 style="padding: 10px 0 20px 0; text-align: center;"><em>If the contents of this page do not load momentarily, please refresh the page.</em></h4>';
+	}
+	for (var a = 0; a < profiles.length; a++) {
 		profiles[a].innerHTML = '';
 
 		// get attributes for element
