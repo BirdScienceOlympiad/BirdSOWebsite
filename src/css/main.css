@@ -506,7 +506,7 @@ button.yellow:focus {
 a.button.navy,
 button.navy {
 	background-color: var(--primary-dark-blue);
-	color:  var(--white);
+	color: var(--white);
 }
 .buttons a.navy:hover,
 a.button.navy:hover,
