@@ -1390,7 +1390,7 @@ var json = [
 				"last name": "Sun",
 				"image": "/src/photos/2022/GeorgeSun.jpeg",
 				"role": [{ "title": "Website Developer" },
-					{ "title": "Event Supervisor", "event": "Digital Structures", "division": "B/C" }],
+					{ "title": "Event Supervisor", "event": "Bridge", "division": "B/C" }],
 				"biography": "I competed with Interlake High School, then attended the University of Washington in Seattle where I co-founded a regional tournament (now defunct). I'm currently an administrator for Scioly.org, national Technology & Engineering Rules Committee member, Washington Science Olympiad board member, and brain tumor researcher. I'm excited to be supervising Digital Structures—while physically breaking bridges is irreplaceable, this season is a perfect opportunity for introducing computational models that have become especially important for engineering in our digital age.",
 				"fact": "Grey Heron"
 			},
