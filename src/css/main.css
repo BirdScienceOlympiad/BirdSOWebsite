@@ -868,7 +868,8 @@ input[type="submit"]:hover {
 	}
 	.banner,
 	.navigation,
-	.footer {
+	.footer .tiles:first-child,
+	.footer .icons {
 		display: none;
 	}
 	.main .container {
@@ -882,6 +883,21 @@ input[type="submit"]:hover {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
+	.footer {
+		background-color: transparent !important;
+		padding-top: 0;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-top: -25px;
+	}
+	.footer .copyright,
+	.footer .copyright a,
+	.footer .copyright a[href]:after {
+		color: var(--dark-grey);
+		text-transform: uppercase;
+		width: 100%;
+	}
+	.footer .
 	.tiles > .one-half,
 	.tiles > .one-third,
 	.tiles > .two-third,
@@ -914,6 +930,22 @@ input[type="submit"]:hover {
 		border-style: solid;
 		border-width: 3px;
 		box-shadow: none !important;
+	}
+	.accordion > h3 {
+		color: var(--primary-dark-blue) !important;
+		background-color: transparent !important;
+		padding: 0;
+	}
+	.accordion > h3:after {
+		display: none;
+	}
+	.accordion > div {
+		max-height: unset;
+		padding-top: 5px;
+		padding-bottom: 10px;
+		padding-right: 0;
+		padding-left: 0;
+		visibility: visible;
 	}
 	.countdown > div {
 		background-color: transparent !important;
